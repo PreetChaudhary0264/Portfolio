@@ -7,7 +7,7 @@ const Achievements = () => {
   const achievements = [
     "Solved 750+ DSA problems on LeetCode.",
     "Secured All India Rank 235 out of 32,378 participants in a national-level coding challenge organized by Naukri Campus",
-    "5th Rank in CodeNow- DSA Problem Solving Round at MIET Meerut.",
+    "5th Rank in CodeNow- DSA Problem Solving Contest Organised by DMCP.",
     "Topped the class in my first Sem."
   ];
 
