@@ -12,7 +12,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-neutral-800 shadow-md w-full text-white rounded-t-xl">
+    <nav className="bg-neutral-800 shadow-md w-full text-white rounded-bl-xl">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-center items-center gap-10 text-lg font-medium">
         {navItems.map((item) => (
           <Link

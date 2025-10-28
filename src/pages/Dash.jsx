@@ -47,10 +47,11 @@ const Dash = () => {
         )}
 
         {/* Navbar aligned with outlet */}
-        <Navbar />
+        
 
         {/* Outlet (scrollable only) */}
-        <main className="flex-1 overflow-auto p-6 bg-neutral-900">
+        <main className="flex-1 overflow-auto rounded-xl bg-neutral-900 mr-10">
+          <Navbar />
           <Outlet />
         </main>
       </div>

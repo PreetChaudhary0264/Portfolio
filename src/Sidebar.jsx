@@ -4,7 +4,7 @@ import MyPhoto from './assets/MyPhoto.jpg';
 
 const Sidebar = () => {
   return (
-    <aside className="w-[240px] flex-shrink-0 border-r border-neutral-800 py-10 flex flex-col items-center bg-neutral-900">
+    <aside className="w-[240px] flex-shrink-0 border-r border-neutral-800 py-10 flex flex-col items-center bg-neutral-900 rounded-xl">
       {/* Profile Image */}
       <img
         src={MyPhoto}
@@ -12,7 +12,7 @@ const Sidebar = () => {
         className="w-32 h-32 object-cover rounded-full border-4 border-white shadow-md mb-4"
       />
       <h2 className="text-2xl font-bold text-white mb-2">Preet Chaudhary</h2>
-      <p className="text-sm text-gray-300 mb-6 text-center">Web Developer | CSE Student</p>
+      <p className="text-sm text-gray-300 mb-6 text-center">CSE Student</p>
 
       {/* Contact Info */}
       <div className="space-y-3 text-sm text-gray-200 w-full px-6">
