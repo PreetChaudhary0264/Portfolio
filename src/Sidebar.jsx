@@ -6,6 +6,7 @@ const Sidebar = () => {
   return (
     <aside className="w-[240px] flex-shrink-0 border-r border-neutral-800 py-10 flex flex-col items-center bg-neutral-900 rounded-xl">
       {/* Profile Image */}
+      {/*This change is for testing revAI backend */}
       <img
         src={MyPhoto}
         alt="Preet Chaudhary"
