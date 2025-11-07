@@ -30,7 +30,7 @@ const Sidebar = () => {
         </p>
         <p className="flex items-center gap-3">
           <Calendar className="w-5 h-5 text-blue-400 flex-shrink-0" />
-          <span>09/10/2005</span>
+          <span>28/02/2005</span>
         </p>
       </div>
 

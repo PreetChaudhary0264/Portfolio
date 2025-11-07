@@ -22,7 +22,7 @@ import {
 
 const Achievements = () => {
   const achievements = [
-    "Solved 800+ DSA problems on platforms like LeetCode & GFG.",
+    "Solved 900+ DSA problems on platforms like LeetCode & GFG.",
     "Secured All India Rank 235 out of 32,378 participants in a national-level coding challenge organized by Naukri Campus.",
     "5th Rank in CodeNow - DSA Problem Solving Contest organized by DMCP.",
     "Topped the class in my first semester.",
