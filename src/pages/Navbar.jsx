@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
-  const location = useLocation(); // get current path
+  const location = useLocation();
 
   const navItems = [
     { path: "/", label: "About" },
@@ -13,7 +13,13 @@ const Navbar = () => {
 
   return (
     <nav className="bg-neutral-800 shadow-md w-full text-white rounded-bl-xl">
-      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-center items-center gap-10 text-lg font-medium">
+      <div
+        className="
+          max-w-6xl mx-auto px-4 sm:px-6 py-3
+          flex flex-wrap justify-center items-center gap-6 sm:gap-10
+          text-base sm:text-lg font-medium
+        "
+      >
         {navItems.map((item) => (
           <Link
             key={item.path}
@@ -33,8 +39,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-
 
 
